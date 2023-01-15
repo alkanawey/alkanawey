@@ -459,6 +459,11 @@ textarea.input {
 
   .text {
   color: #333;
-  font-size: 8px;
+  font-size: 9px;
   }
 }
+
+@media (max-width: 350px){
+  .text {
+  font-size: 8px;
+  }
