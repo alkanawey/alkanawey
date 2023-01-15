@@ -394,7 +394,7 @@ textarea.input {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .container {
     padding: 0.5rem;
   }
@@ -413,10 +413,14 @@ textarea.input {
     padding: 1rem 1.1rem;
   }
 
-  .text,
   .information,
-  .social-media p {
+  .social-media p b {
     font-size: 0.72rem;
+  }
+
+  .text {
+  color: #333;
+  font-size: 10px;
   }
 
   .title {
@@ -434,7 +438,7 @@ textarea.input {
   }
 
   .input {
-    padding: 0.25rem 0.6rem;
+    padding: 0.3rem 0.8rem;
     width: 20rem;
   }
 
@@ -444,5 +448,17 @@ textarea.input {
 
   .thankyou_message{
     font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 380px){
+  .input {
+    padding: 0.3rem 0.5rem;
+    width: 20rem;
+  }
+
+  .text {
+  color: #333;
+  font-size: 8.2px;
   }
 }
